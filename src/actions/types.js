@@ -1,0 +1,3 @@
+export const EARTHQ_LIST = 'EARTHQUAKE_LIST'
+export const EARTHQ_SRCLOC = 'EARTHQUAKE_SEARCH_LOC'
+export const TRAIL_LIST = 'TRAIL_LIST'

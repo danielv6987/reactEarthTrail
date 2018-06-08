@@ -1,0 +1,42 @@
+@import "base/font-awesome-color-brand";
+@import "../../node_modules/bulma/sass/utilities/all";
+
+$dark-grey: #333;
+$grey: #666;
+$blue: #1c88bf;
+$dark-blue: #364051;
+$off-white: #f7f7f7;
+// Font Size
+$font-size-large: 1.8rem;
+$font-size-small: 1.4rem;
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+
+body {
+  color: $blue;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+.googleMap{
+  margin-top: 90px;
+}
+
+.results{
+  height:80vh;
+  overflow-y: auto;
+}
+
+.quakeItem,.trailItem{
+  margin-bottom: 60px;
+}
+
+.quakeTitle,.trailTitle{
+  background-color:$light;
+}
+
